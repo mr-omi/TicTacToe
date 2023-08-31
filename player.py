@@ -3,12 +3,13 @@ import random
 
 class Player:
     def __init__(self, letter):
-        #letter is X or O
+        # letter is X or O
         self.letter = letter
 
     # we want all players to get their move given a game
     def get_move(self, game):
         pass
+
 
 class ComputerPlayer(Player):
     def __init__(self, letter):
